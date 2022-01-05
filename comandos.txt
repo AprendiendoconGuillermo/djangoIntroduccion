@@ -1,0 +1,8 @@
+instalar ambiente virtual
+	pip install virtualenv
+para crear la carpeta del ambiente virtual
+	virtualenv env
+para activiar el ambiente virtual
+	cd env
+	cd scripts
+	activate

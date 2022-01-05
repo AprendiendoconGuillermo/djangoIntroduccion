@@ -1,0 +1,2 @@
+#para control de versiones
+django==3.2.6
