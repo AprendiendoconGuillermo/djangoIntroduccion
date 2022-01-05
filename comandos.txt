@@ -2,7 +2,13 @@ instalar ambiente virtual
 	pip install virtualenv
 para crear la carpeta del ambiente virtual
 	virtualenv env
-para activiar el ambiente virtual
+para activar el ambiente virtual
 	cd env
 	cd scripts
 	activate
+para activar django (regresar a la raiz del proyecto)
+	pip install -r requirements.txt
+para crear el proyecto (core <-- nomenclatura que contiene info del proyecto)
+	django-admin startproject core .
+para correr el django
+	python manage.py runserver
